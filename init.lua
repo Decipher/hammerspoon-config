@@ -32,8 +32,8 @@ local function adjust(x, y, w, h)
 end
 hotkey.bind(mash, "left", adjust(0, 0, 0.5, 1))
 hotkey.bind(mash, "right", adjust(0.5, 0, 0.5, 1))
-hotkey.bind(mash, "space", adjust(0, 0, 1, 1))
-hotkey.bind(mashshift, "space", adjust(0.25, 0.25, 0.5, 0.5))
+hotkey.bind(mash, "up", adjust(0, 0, 1, 1))
+hotkey.bind(mash, "down", adjust(0.25, 0.25, 0.5, 0.5))
 
 --
 -- Screen resolution management
